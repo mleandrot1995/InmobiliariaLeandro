@@ -1,0 +1,36 @@
+
+@use "../abstracts/variables" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $primary-color;
+
+  &__brand {
+    display: flex;
+    align-items: center;
+
+    .navbar__logo {
+      height: 50px;
+      width: auto;
+    }
+  }
+
+  &__links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+
+    li a {
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}

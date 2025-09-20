@@ -1,0 +1,34 @@
+
+.property-detail {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+    color: #555;
+
+    &:last-child {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #007bff;
+    }
+  }
+}

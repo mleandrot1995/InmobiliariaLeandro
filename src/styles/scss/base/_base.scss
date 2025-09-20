@@ -1,0 +1,40 @@
+
+@use "../abstracts/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-stack;
+  background-color: $background-color;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+.app-container {
+  min-height: 100vh;      // altura mínima = toda la pantalla
+  display: flex;
+  flex-direction: column; // para apilar navbar, main, footer
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
