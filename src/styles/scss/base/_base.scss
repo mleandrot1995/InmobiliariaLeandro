@@ -19,9 +19,9 @@ body {
 }
 
 .app-container {
-  min-height: 100vh;      // altura mínima = toda la pantalla
+  min-height: 100vh;
   display: flex;
-  flex-direction: column; // para apilar navbar, main, footer
+  flex-direction: column;
 }
 
 #root {
